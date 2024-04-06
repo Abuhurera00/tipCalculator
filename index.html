@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIP-CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Tip Calculator</h2>
+        <form action="">
+            <div class="block">Total Bill</div>
+            <span>$</span>
+            <input type="text" id="bill" placeholder="0.00" onkeyup="chkBill()">
+            <div class="block">Tip</div>
+            <span>%</span>
+            <input type="text" placeholder="10" onkeyup="chkBill()" id="tip">
+            <div class="block">People</div>
+            <input type="number" id="nmbr" onclick="chkBill()">
+            <span id="per-person">Total Per Person: <span class="person-dollor">$</span><input type="text" id="person-bill" placeholder="0.00"></span>
+        </form>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

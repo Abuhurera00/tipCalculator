@@ -1,0 +1,56 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3R1ZHklMjBkZXNrfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.container{
+      background-color: rgb(49, 75, 74);
+   width: 400px;
+   padding: 50px 20px;
+   margin: 50px auto;
+    box-shadow: 0 6px 11px rgba(0, 0, 0, .6);
+    border-radius: 30px;
+     color: white;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 1.2rem;
+     letter-spacing: 1px;
+}
+
+.block{
+    padding: 10px 0;
+}
+
+span{
+    position: absolute;
+    padding: 11px 10px 10px 13px;
+}
+
+input{
+    border: none;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 33px;
+    outline: none;
+    padding: 12px 12px 12px 32px;
+}
+
+#nmbr{
+    width: 30px;
+}
+#person-bill{
+    width: 70px;
+    margin-left: 15px;
+}
+
+#per-person{
+    position: relative;
+}
+
+.person-dollor{
+    padding: 10px 0 5px 25px;
+}
